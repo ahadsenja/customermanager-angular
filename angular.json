@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "customermanager-angular"
+  "defaultProject": "customermanager-angular",
+  "cli": {
+    "analytics": "3269a1b1-429e-40d5-990f-9d2bf76a7982"
+  }
 }
