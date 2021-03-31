@@ -7,12 +7,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { DataService } from './shared/data.service';
+import { BasicFormComponent } from './form/basic-form/basic-form.component';
+import { ReactiveFormComponent } from './form/reactive-form/reactive-form.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AppRoutingModule.components
+    AppRoutingModule.components,
+    BasicFormComponent,
+    ReactiveFormComponent
   ],
   imports: [
     BrowserModule,
